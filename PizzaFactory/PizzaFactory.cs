@@ -6,6 +6,7 @@ namespace PizzaFactory
 {
     public class PizzaFactoryConfig
     {
+        public string LogFileName { get; set; }
         public int BaseCookingTime { get; set; }
         public int Interval { get; set; }
         public int NumberOfPizzas { get; set; }

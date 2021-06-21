@@ -9,5 +9,6 @@ namespace PizzaFactory
         public string Base { get; set; }
         public string Topping { get; set; }
         public Decimal BaseCookingTimeMultiplier { get; set; } 
+        public int TotalCookTime { get; set; }
     }
 }

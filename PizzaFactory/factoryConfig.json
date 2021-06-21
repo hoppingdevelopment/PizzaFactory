@@ -1,8 +1,9 @@
 {
   "PizzaFactoryConfig": {
+    "LogFileName" : "Pizza Factory Run Log {datetime}.txt",
     "BaseCookingTime": 3000,
-    "Interval": 150,
-    "NumberOfPizzas" :  50,
+    "Interval": 2000,
+    "NumberOfPizzas": 5,
     "Bases": [
       {
         "Name": "Deep Pan",
